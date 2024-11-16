@@ -1,0 +1,97 @@
+* {
+    margin: 0% 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+nav {
+    height: 60px;
+    width: 100%;
+    background-color: #edf756;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 30px;
+    align-items: center;
+    gap: 30px;
+}
+nav h4 {
+    font-size: 20px;
+}
+nav i {
+    background-color: black;
+    color: #edf756;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 5px;
+}
+nav :hover {
+    cursor: pointer;
+}
+#main-left {
+    width: 100%;
+    background-color: #edf756;
+    font-size: 30px;
+    padding: 30px 100px;
+}
+#main-left h1 {
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 70px;
+}
+#center-left-two {
+    height: 100%;
+    background-color: #edf756;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#center-left-two p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    height: 100%;
+}
+.elem {
+    padding: 40px 0;
+    background-color: #edf756;
+    border-top: 2px solid black;
+}
+#right {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.elem a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+.elem:hover {
+    background-color: brown;
+    border-radius: 10%;
+    padding: 40px;
+    text-decoration: underline;
+}
+#bottom {
+    height: 35%;
+    width: 100%;
+    background-color: red;
+    background-image: url(https://images.hdqwalls.com/download/girl-sitting-monochrome-5k-n2-3840x2400.jpg);
+    background-size: cover;
+    background-position: 0 30%;
+    transition: background-image 0.5s ease-in-out, background-position 0.5s ease-in-out;
+}
+#bottom:hover {
+    background-image: url(https://images.hdqwalls.com/download/emilia-clarke-art4k-5y-3840x2400.jpg);
+    background-position: 0 20%;
+}
